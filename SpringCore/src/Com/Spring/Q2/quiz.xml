@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+<!-- Uncomment for Lists case-->
+    <bean id="Question1" class="Com.Spring.Question">
+    <constructor-arg index="0" type="int" value="1"/>
+    <constructor-arg index="1" value="What is inheritance?"/>
+    <constructor-arg index="2">
+            <list>
+                <value>When baseclass inherits the properties of parent it's called inheritance</value>
+            </list>
+    </constructor-arg>
+    </bean>
+	
+   
+</beans>

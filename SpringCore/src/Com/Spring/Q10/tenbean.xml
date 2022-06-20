@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+    <bean id="ContextAware" class="Com.Spring.ContextAwareExample">
+        <property name="place" value="Hyderabad"/>
+        <property name="demo" ref="Demo"/>
+    </bean>
+   <bean id="ContextAware1" class="Com.Spring.ContextAwareExample">
+        <property name="place" value="Bangalore"/>
+        <property name="demo" ref="Demo"/>
+    </bean> 
+
+    <bean id="Demo" class="Com.Spring.Demo" scope="prototype">
+        <property name="x" value="10"/>
+        <property name="y" value="20"/>
+    </bean>
+</beans>
