@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+
+#top{
+    text-align: left;
+    background-color: grey;
+}
+
+th{
+    font-weight: normal;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+}
+
+#botleft{
+    height: 50px;
+}
+
+#l1{
+    background-color: rgba(128, 128, 128, 0.53);
+}
+#l2{
+    background-color: grey;
+}
+#l3{
+    background-color: grey;
+}
+#l4{
+    background-color: rgba(128, 128, 128, 0.388);
+}
